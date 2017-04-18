@@ -1,4 +1,4 @@
-package Controlador;
+package com.Cronoware.Controlador;
 
 public class CalificarPuesto{
 	

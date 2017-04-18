@@ -1,4 +1,4 @@
-package com.Cronoare.Modelo;
+package com.Cronoware.Modelo;
 
 import com.Cronoware.Mapeo.*;
 import org.hibernate.Session;

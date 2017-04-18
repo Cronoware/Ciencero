@@ -23,10 +23,10 @@
         <property name="dataSource" ref="dataSource"/>
         <property name="annotatedClasses">
             <list>
-                <value>com.Cronoware.Mapeo.UsuarioDAO </value>
-                <value>com.Cronoware.Mapeo.PuestoDAO </value>
-                <value>com.Cronoware.Mapeo.CalificacionDAO </value>
-                <value>com.Cronoware.Mapeo.ComentarioDAO </value>
+                <value>com.Cronoware.Modelo.UsuarioDAO </value>
+                <value>com.Cronoware.Modelo.PuestoDAO </value>
+                <value>com.Cronoware.Modelo.CalificacionDAO </value>
+                <value>com.Cronoware.Modelo.ComentarioDAO </value>
             </list>
         </property>   
         <property name="hibernateProperties">
@@ -41,19 +41,19 @@
     <!--  Se agrega para poder inyectarlo a los Controladores, revisa Controlador.java
           en el paquete controlador, se esta haciendo uso de @Autowiring-->
 
-    <bean id="UsuarioDAO" class="com.Cronoware.Mapeo.UsuarioDAO"
+    <bean id="UsuarioDAO" class="com.Cronoware.Modelo.UsuarioDAO"
         p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"
     />
 
-    <bean id="PuestoDAO" class="com.Cronoware.Mapeo.PuestoDAO"
+    <bean id="PuestoDAO" class="com.Cronoware.Modelo.PuestoDAO"
         p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"
     />
     
-    <bean id="ComentarioDAO" class="com.Cronoware.Mapeo.ComentarioDAO"
+    <bean id="ComentarioDAO" class="com.Cronoware.Modelo.ComentarioDAO"
         p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"
     />
     
-    <bean id="CalificacionDAO" class="com.Cronoware.Mapeo.CalificacionDAO"
+    <bean id="CalificacionDAO" class="com.Cronoware.Modelo.CalificacionDAO"
         p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"
     />
 </beans>
