@@ -36,12 +36,11 @@ public class Controlador{
             
         	String info = "";
          	if (user == null){
-                	model.addAttribute("info", info+"No se encontro nungun profesor con ese nombre");
+                	model.addAttribute("info", info+"Correo o contraseña inválidos.");
             	}else{
-                	model.addAttribute("info", info+"El profesor es");
-                	model.addAttribute("profesor", user);
+                	model.addAttribute("usuario", user);
             	}
-            	return new ModelAndView("profesor",model);
+            	return new ModelAndView("inicio",model);
         
         }
 }

@@ -4,6 +4,10 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.JoinColumn;
 
 /**
 *@author Emilio
@@ -18,7 +22,7 @@ public class Comentario{
 	
 	@ManyToOne	
 	@JoinColumn(name = "usuario_id")
-	private Ususario u;
+	private Usuario u;
 	
 	@ManyToOne	
 	@JoinColumn(name = "puesto_id")
@@ -35,7 +39,7 @@ public class Comentario{
         	this.comentario_id = comentario_id;
     	}
 	
-	public Ususario getUsuario(){
+	public Usuario getUsuario(){
 		return u;
 	}
 	

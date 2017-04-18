@@ -15,7 +15,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name="usuario")
-public class Ususario{
+public class Usuario{
 	
 	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
     	@Column(name = "usuario_id")
@@ -30,21 +30,21 @@ public class Ususario{
 	@Column(name = "correo")
 	private String correo;
 	
-	@column(nmae = "psswd")
+	@Column(name = "psswd")
 	private String psswd;
 	
 	@OneToMany(mappedBy = "calificacion")
-	private List<Calificacion> calificaciones_ususario;
+	private List<Calificacion> calificaciones_usuario;
 	
 	@OneToMany(mappedBy = "comentario")
 	private List<Comentario> comentarios_usuario;
 	
 	public int getUsuario_id(){
-		return ususario_id;
+		return usuario_id;
 	}
 	
 	public void setUsuario_id(int usuario_id){
-		this.usuario_id = ususario_id;
+		this.usuario_id = usuario_id;
 	}
 	
 	public String getNombre(){

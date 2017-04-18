@@ -1,5 +1,6 @@
 package com.Cronoware.Modelo;
 
+import com.Cronoware.Mapeo.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

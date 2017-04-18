@@ -4,6 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.persistence.JoinColumn;
 
 /**
 *@author Emilio
@@ -14,7 +15,7 @@ public class Calificacion{
 	
 	@ManyToOne	
 	@JoinColumn(name = "usuario_id")
-	private Ususario u;
+	private Usuario u;
 	
 	@ManyToOne	
 	@JoinColumn(name = "puesto_id")
@@ -23,7 +24,7 @@ public class Calificacion{
 	@Column(name = "calificacion")
 	private int estrellas;
 	
-	public Ususario getUsuario(){
+	public Usuario getUsuario(){
 		return u;
 	}
 	
@@ -39,12 +40,12 @@ public class Calificacion{
 		this.p = p;
 	}
 	
-	public int getCalificacion(){
-		return calificacion;
+	public int getEstrellas(){
+		return estrellas;
 	}
 	
-	public void setCalificacion(int calificacion){
-		this.calificacion = calificacion;
+	public void setEstrellas(int estrellas){
+		this.estrellas = estrellas;
 	}
 	
 }

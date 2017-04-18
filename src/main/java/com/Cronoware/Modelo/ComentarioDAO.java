@@ -1,5 +1,6 @@
-package Modelo;
+package com.Cronoware.Modelo;
 
+import com.Cronoware.Mapeo.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -35,7 +36,7 @@ public class ComentarioDAO{
         	}
 	}
 	
-	public void eliminar(Comentario grupo) {
+	public void eliminar(Comentario c) {
     
         	Session session = sessionFactory.openSession();
         	Transaction tx = null;

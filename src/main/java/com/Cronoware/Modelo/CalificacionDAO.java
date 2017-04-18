@@ -1,5 +1,6 @@
-package coom.Cronoare.Modelo;
+package com.Cronoare.Modelo;
 
+import com.Cronoware.Mapeo.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -35,7 +36,7 @@ public class CalificacionDAO{
         	}
 	}
 	
-	public void eliminar(Calificacion grupo) {
+	public void eliminar(Calificacion c) {
     
         	Session session = sessionFactory.openSession();
         	Transaction tx = null;
