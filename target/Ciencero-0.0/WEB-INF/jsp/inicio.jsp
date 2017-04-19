@@ -10,14 +10,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Ciencero</title>
-        <form method="GET" action="/Ciencero/iniciarSesion">
-            <h2>Ingresa tu correo</h2>
-            <input id="correo" name="correo" type="text" placeholder="correo@ciencias.unam.mx">
-            <input id="contra" name="psswd" type="password" placeholder="contraseña">
-            <button>Aceptar</button>
+        <form method="GET" action="/Ciencero/getIniciarSesion">
+            <button>Iniciar sesión</button>
+        </form>
+        <form method="GET" action="/Ciencero/getRegistro">
+            <button>Registrarse</button>
         </form>
     </head>
     <body>
-        
+        <h2><font color="#FF0000">${info}</font></h2>
     </body>
 </html>

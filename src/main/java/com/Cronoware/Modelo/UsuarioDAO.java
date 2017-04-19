@@ -13,7 +13,7 @@ public class UsuarioDAO {
         	this.sessionFactory = sessionFactory;
     	}
   	
-  	public void guardar(Usuario c) {
+  	public boolean guardar(Usuario c) {
     
 	        Session session = sessionFactory.openSession();
         	Transaction tx = null;
@@ -22,11 +22,13 @@ public class UsuarioDAO {
          
            		session.persist(c);
            		tx.commit();
+                        return true;
         	}catch (Exception e) {
            		if (tx!=null){ 
                			tx.rollback();
            		}
-           		e.printStackTrace(); 
+           		e.printStackTrace();
+                        return false;
         	}finally {
            		session.close();
         	}

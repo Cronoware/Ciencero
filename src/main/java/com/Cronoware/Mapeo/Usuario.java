@@ -38,6 +38,12 @@ public class Usuario{
 	
 	@OneToMany(mappedBy = "comentario")
 	private List<Comentario> comentarios_usuario;
+        
+        public Usuario(String nombre, String correo, String psswd){
+            this.nombre = nombre;
+            this.correo = correo;
+            this.psswd = psswd;
+        }
 	
 	public int getUsuario_id(){
 		return usuario_id;
