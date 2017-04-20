@@ -1,17 +1,9 @@
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Mapeo\Comentario.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Modelo\ComentarioDAO.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Modelo\CalificacionDAO.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Mapeo\Calificacion.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Modelo\PuestoDAO.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Controlador\ComentarPuesto.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Mapeo\Usuario.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Controlador\RegistrarUsuario.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Controlador\CalificarPuesto.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Controlador\EliminarPuesto.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Modelo\UsuarioDAO.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Mapeo\Puesto.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Controlador\RegistrarPuesto.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Controlador\IniciarSesion.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Controlador\VerInformacionPuesto.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Controlador\CerrarSesion.java
-C:\Users\emili\Documents\NetBeansProjects\Ciencero\src\main\java\com\Cronoware\Controlador\Controlador.java
+C:\Users\Julio\Desktop\Facultad Ciencias\VI - Ingeniería de Software\Ejemplos\ClaseIS20172-master\src\main\java\Mapeo\Comentario.java
+C:\Users\Julio\Desktop\Facultad Ciencias\VI - Ingeniería de Software\Ejemplos\ClaseIS20172-master\src\main\java\Controlador\Controlador.java
+C:\Users\Julio\Desktop\Facultad Ciencias\VI - Ingeniería de Software\Ejemplos\ClaseIS20172-master\src\main\java\Modelo\ComentarioDAO.java
+C:\Users\Julio\Desktop\Facultad Ciencias\VI - Ingeniería de Software\Ejemplos\ClaseIS20172-master\src\main\java\Mapeo\Puesto.java
+C:\Users\Julio\Desktop\Facultad Ciencias\VI - Ingeniería de Software\Ejemplos\ClaseIS20172-master\src\main\java\Mapeo\Calificacion.java
+C:\Users\Julio\Desktop\Facultad Ciencias\VI - Ingeniería de Software\Ejemplos\ClaseIS20172-master\src\main\java\Mapeo\Usuario.java
+C:\Users\Julio\Desktop\Facultad Ciencias\VI - Ingeniería de Software\Ejemplos\ClaseIS20172-master\src\main\java\Modelo\CalificacionDAO.java
+C:\Users\Julio\Desktop\Facultad Ciencias\VI - Ingeniería de Software\Ejemplos\ClaseIS20172-master\src\main\java\Modelo\PuestoDAO.java
+C:\Users\Julio\Desktop\Facultad Ciencias\VI - Ingeniería de Software\Ejemplos\ClaseIS20172-master\src\main\java\Modelo\UsuarioDAO.java

@@ -23,10 +23,10 @@
         <property name="dataSource" ref="dataSource"/>
         <property name="annotatedClasses">
             <list>
-                <value>com.Cronoware.Modelo.UsuarioDAO </value>
-                <value>com.Cronoware.Modelo.PuestoDAO </value>
-                <value>com.Cronoware.Modelo.CalificacionDAO </value>
-                <value>com.Cronoware.Modelo.ComentarioDAO </value>
+                <value>Modelo.UsuarioDAO</value>
+                <value>Modelo.ComentarioDAO</value>
+                <value>Modelo.PuestoDAO</value>
+                <value>Modelo.CalificacionDAO</value>
             </list>
         </property>   
         <property name="hibernateProperties">
@@ -38,22 +38,24 @@
         </property>
     </bean>
     
+    <bean id="UsuarioDAO" class="Modelo.UsuarioDAO"
+        p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"
+    />
+    
+    <bean id="PuestoDAO" class="Modelo.PuestoDAO"
+        p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"
+    />
+    
+    <bean id="ComentarioDAO" class="Modelo.ComentarioDAO"
+        p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"
+    />
+
+    <bean id="CalificacionDAO" class="Modelo.CalificacionDAO"
+        p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"
+    />
+    
     <!--  Se agrega para poder inyectarlo a los Controladores, revisa Controlador.java
           en el paquete controlador, se esta haciendo uso de @Autowiring-->
 
-    <bean id="UsuarioDAO" class="com.Cronoware.Modelo.UsuarioDAO"
-        p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"
-    />
 
-    <bean id="PuestoDAO" class="com.Cronoware.Modelo.PuestoDAO"
-        p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"
-    />
-    
-    <bean id="ComentarioDAO" class="com.Cronoware.Modelo.ComentarioDAO"
-        p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"
-    />
-    
-    <bean id="CalificacionDAO" class="com.Cronoware.Modelo.CalificacionDAO"
-        p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"
-    />
 </beans>
